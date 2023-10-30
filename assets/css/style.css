@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    color: #e6d00e;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.php1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.title {
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+.text {
+    padding: 5px 0;
+}
+
+.color {
+    font-weight: 600;
+    color: #ff0400;
+}
+
+.link {
+    color: #000000;
+}
+.animal_text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.img{
+    width: 300px;
+    object-fit:cover;
+}
+.information {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.info_animal{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
